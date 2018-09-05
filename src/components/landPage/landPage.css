@@ -1,0 +1,70 @@
+.pageContainer {
+  background-color: white;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+}
+
+.imageContainer {
+  width: 100%;
+  height: 63%;
+  position: relative;
+  margin: auto;
+  margin-bottom: 2%;
+  background: url('../../assets/images/landPageImage.jpg');
+  background-size: cover;
+}
+
+.directiveContainer {
+  width: 28%;
+  height: 85%;
+  float: right;
+  margin-right: 6%;
+  margin-top: 3%;
+  background-color: rgba(98, 76, 88, 0.81);
+  border-radius: 1.2%;
+  color: white;
+  font-size: 2.5em;
+  font-family:monaco;
+  text-align: center;
+  letter-spacing: -1px;
+  font-weight: 600;
+}
+
+#directiveText {
+  margin: 20% 7% 5% 7%;
+}
+
+#directiveButton {
+  text-align: center;
+  margin: 20% 0 20% 0;
+  letter-spacing: normal;
+}
+
+.textContainer {
+  margin-left: 5%;
+  margin-right: 5%;
+  text-align: center;
+}
+
+#img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#icons {
+  color: rgb(96, 67, 82);
+}
+
+#textbox {
+  padding-left: 6%;
+  padding-right: 6%;
+}
+
+#textboxHeader {
+  font-weight: bold;
+  color: rgb(96, 67, 82);
+  font-size: 1.3em;
+  margin-bottom: 3%;
+}
